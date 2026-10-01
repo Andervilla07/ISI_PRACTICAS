@@ -273,6 +273,7 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 | Nutricionistas y médicos | Profesionales de la salud que contribuyen con recetas especializadas y validan la calidad de las recetas disponibles en la plataforma. | Visión y alcance. 3.1 Partes interesadas |
 | Representantes de la organización sin ánimo de lucro | Partes interesadas clave que impulsan la creación del proyecto y velan por su alineación con la misión de mejorar la vida de los pacientes con EII. | Visión y alcance. 3.1 Partes interesadas |
 | Coordinador | Usuario responsable de supervisar la actividad en la plataforma. Gestiona reportes de contenido inadecuado, aplica reglas de uso, apoya el correcto funcionamiento de la comunidad y gestiona cuentas de usuario, incluida la aprobación, suspensión y eliminación de cuentas. La adscripción organizativa del coordinador se decidirá en la fase de despliegue. | Visión y alcance. 3.1 Partes interesadas |
+| Receta Adaptada | Encontrar recetas adecuadas al perfil; el sistema no modificará automáticamente ingredientes o cantidades. | Acta de captura de requisitos generales. 3 Recetas y gestión de la dieta | 
 
 ## 10. Modelos de análisis
 
