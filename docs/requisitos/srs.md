@@ -267,6 +267,7 @@ para conservar la procedencia de la definición. El catálogo de requisitos podr
 enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
+| --- |---| --- |
 | Pacientes con EII | Usuarios principales del sistema, que buscan recetas personalizadas para mejorar su dieta y controlar los síntomas de su enfermedad. | Visión y alcance. 3.1 Partes interesadas | 
 | Cuidadores | Familiares o profesionales que asisten a los pacientes en la gestión de su dieta, actuando como usuarios secundarios que buscan y administran recetas en nombre de los pacientes. | Visión y alcance. 3.1 Partes interesadas |
 | Nutricionistas y médicos | Profesionales de la salud que contribuyen con recetas especializadas y validan la calidad de las recetas disponibles en la plataforma. | Visión y alcance. 3.1 Partes interesadas |
