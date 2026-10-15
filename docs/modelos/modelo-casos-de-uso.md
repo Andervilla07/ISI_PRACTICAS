@@ -1,3 +1,4 @@
+<img width="867" height="767" alt="Plan_E2" src="https://github.com/user-attachments/assets/8179b550-8f9e-41e5-8cbe-caa3b274e2ab" />
 # Modelo de casos de uso de Proyecto Simbiosis
 
 | Versión | Fecha | Estado |
@@ -110,6 +111,7 @@ UC-35 es una subfunción compartida. No representa una operación que el Coordin
 **Frontera del sistema:** Proyecto Simbiosis.
 
 **Alcance:** Registro y acceso local, condiciones por perfil, gestión básica de cuentas, ayuda contextual y bienvenida. La vista contiene siete actores y los quince casos de uso del apartado 3.
+<img width="867" height="767" alt="Plan_E2" src="https://github.com/user-attachments/assets/8e5d4183-b47f-4326-9f98-d37d6b9e4228" />
 
 ![Vista de acceso, cuentas y ayuda de E1](imagenes/casos-de-uso-acceso-cuentas-ayuda-e1.png)
 
