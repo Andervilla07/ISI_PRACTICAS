@@ -75,7 +75,7 @@ Los objetivos de esta tabla son resúmenes. Las descripciones detalladas quedan 
 | UC-15 | Autorizar nutricionista | Autorización de nutricionistas específicos para consultar datos de salud | Principal: Coordinador |
 | UC-16 | Desautorizar nutricionista | El paciente podrá revocar la autorización en cualquier momento | Principal: Paciente |
 | UC-17 | Invitar nutricionista | Invitación a un nutricionista que todavía no tiene cuenta. El paciente indicará el correo del nutricionista | Principal: Usuario |
-| UC-18 | Existencia de cuenta | Si este ya dispone de cuenta, el sistema mostrará su identidad. Si no dispone de cuenta, el sistema le enviará por correo electrónico una invitación para registrarse | Principal: Usuario |
+| UC-18 | Existencia de cuenta | Si este ya dispone de cuenta, el sistema mostrará su identidad. Si no dispone de cuenta, el sistema le enviará por correo electrónico una invitación para registrarse | Ayuda: Sistema |
 | UC-19 | Indicar pacientes que cuidará | La aprobación del perfil de cuidador, la aceptación de la relación de cuidado y la autorización de acceso a datos son condiciones diferentes. | Principal: Cuidador |
 | UC-20 | Autorizar relación cuidado | Una relación de cuidado activa no concede acceso automático a todos los datos del paciente. El cuidador no obtiene acceso a la dirección ni al teléfono del paciente. | Principal: Paciente |
 | UC-21 | Crear recetas |  creación de recetas con los datos obligatorios, imágenes o vídeos admitidos, categorías y etiquetas. Incluye también la edición, la eliminación con confirmación y la consulta del historial de recetas propias. | Principal: Usuario |
