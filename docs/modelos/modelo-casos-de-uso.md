@@ -1,4 +1,3 @@
-<img width="867" height="767" alt="Plan_E2" src="https://github.com/user-attachments/assets/8179b550-8f9e-41e5-8cbe-caa3b274e2ab" />
 # Modelo de casos de uso de Proyecto Simbiosis
 
 | Versión | Fecha | Estado |
