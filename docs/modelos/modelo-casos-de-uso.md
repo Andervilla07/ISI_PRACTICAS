@@ -69,6 +69,20 @@ Los objetivos de esta tabla son resúmenes. Las descripciones detalladas quedan 
 | UC-09 | Consultar ayuda | Consultar las instrucciones y los temas de ayuda de las funciones seleccionadas. | Principal: Usuario. |
 | UC-10 | Recorrer bienvenida | Conocer las funciones básicas mediante el recorrido del primer acceso, con la posibilidad de omitirlo. | Principal: Usuario registrado. |
 | UC-11 | Enviar correo electrónico | Enviar el mensaje que necesita el caso de uso que lo incluye. | Apoyo: Servicio de correo electrónico. No se asigna un actor principal independiente. |
+| UC-12 | Modificación del registro médico del paciente | Introducción manual de datos fisiológicos y resultados de laboratorio. Incluye también las notas de síntomas o estado de salud, con su límite de longitud. | Principal: Personal profesional |
+| UC-13 | Consultar historial | El paciente podrá consultar su historial, filtrar por tipo de dato y acceder a gráficas | Principal: Paciente |
+| UC-14 | Exportar datos | Exportar sus datos en PDF y CSV | Principal: Paciente |
+| UC-15 | Autorizar nutricionista | Autorización de nutricionistas específicos para consultar datos de salud | Principal: Coordinador |
+| UC-16 | Desautorizar nutricionista | El paciente podrá revocar la autorización en cualquier momento | Principal: Paciente |
+| UC-17 | Invitar nutricionista | Invitación a un nutricionista que todavía no tiene cuenta. El paciente indicará el correo del nutricionista | Principal: Usuario |
+| UC-18 | Existencia de cuenta | Si este ya dispone de cuenta, el sistema mostrará su identidad. Si no dispone de cuenta, el sistema le enviará por correo electrónico una invitación para registrarse | Principal: Usuario |
+| UC-19 | Indicar pacientes que cuidará | La aprobación del perfil de cuidador, la aceptación de la relación de cuidado y la autorización de acceso a datos son condiciones diferentes. | Principal: Cuidador |
+| UC-20 | Autorizar relación cuidado | Una relación de cuidado activa no concede acceso automático a todos los datos del paciente. El cuidador no obtiene acceso a la dirección ni al teléfono del paciente. | Principal: Paciente |
+| UC-21 | Crear recetas |  creación de recetas con los datos obligatorios, imágenes o vídeos admitidos, categorías y etiquetas. Incluye también la edición, la eliminación con confirmación y la consulta del historial de recetas propias. | Principal: Usuario |
+| UC-22 | Validar recetas | Una receta propuesta por un paciente o cuidador queda pendiente de validación. Un nutricionista puede revisar la propuesta y validarla. Tras la validación, la receta se publica como validada. | Principal: Nutricionista |
+| UC-23 | Publicación recetas nutricionista | El nutricionista puede publicar directamente como validadas las recetas que cree. Las recetas validadas muestran la insignia correspondiente, con independencia de quién sea su autor. | Principal: Nutricionista |
+| UC-24 | Búsqueda por palabra | Búsqueda por palabras clave, ingredientes y autor. | Principal: Usuario |
+| UC-25 | Filtrar recetas | Exclusión de ingredientes y los filtros de tipo de comida, tiempo, dificultad y restricciones dietéticas | Principal: Usuario |
 | UC-31 | Aprobar cuenta de cuidador o nutricionista | Aprobar una cuenta solicitada con perfil de cuidador o nutricionista, conforme a las condiciones del perfil. | Principal: Coordinador. |
 | UC-32 | Suspender cuenta de usuario activa | Suspender una cuenta de usuario que se encuentra activa. | Principal: Coordinador. |
 | UC-33 | Eliminar cuenta de usuario | Eliminar una cuenta de usuario y conservar el contenido publicado cuando corresponda a un cuidador. | Principal: Coordinador. |
