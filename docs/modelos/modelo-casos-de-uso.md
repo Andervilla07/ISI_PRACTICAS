@@ -220,7 +220,7 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 **Participantes:** Actor principal: Usuario registrado
 
-**Precondiciones:** Las consultas descritas se realizan con una sesión iniciada. Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o frase y la exclusión de ingredientes.
+**Precondiciones:** El usuario debe estar registrado
 
 **Inicio:** El usuario registrado quiere buscar una receta con detalles expecíficos
 
@@ -245,11 +245,11 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
  1. El sistema indica que no hay resultados para esa búsqueda, si ninguna receta cumple los criterios. Conserva los criterios para que la persona pueda modificarlos.
  2. El sistema ofrece una corrección ortográfica si el texto lo admite
 
-**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
+**Postcondiciones:** Se mostraran las recetas que cumplan los requisitos, si no hay ninguna el sistema muestra no muestra ninguna receta 
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
-**Preguntas abiertas:** [Cuando se actualiza el perfil, ¿Quiere que mande un mensaje de "perfil actualizado"?]
+**Preguntas abiertas:** 
 
 ## 7 Continuidad entre iteraciones
 
