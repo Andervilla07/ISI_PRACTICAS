@@ -190,7 +190,7 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 **Alternativas y errores:**
 
-En relación con el paso 6 del escenario:
+**En relación con el paso 6 del escenario:**
 
 **El sistema no es capaz de guardas los cambios realizados**
 
