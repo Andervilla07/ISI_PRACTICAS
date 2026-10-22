@@ -210,6 +210,47 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 **Preguntas abiertas:** [Cuando se actualiza el perfil, ¿Quiere que mande un mensaje de "perfil actualizado"?]
 
+### 6.2 Descripción de un caso
+
+**Identificador y nombre:** 	UC-21·Buscar recetas
+
+**Estado de la descripción:** Concretar el comportamiento que se describirá en L06. 
+
+**Objetivo:** La persona quiere localizar una receta que cumpla sus criterios y consultar su detalle.
+
+**Participantes:** Actor principal: Usuario registrado
+
+**Precondiciones:** Las consultas descritas se realizan con una sesión iniciada. Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o frase y la exclusión de ingredientes.
+
+**Inicio:** El usuario registrado quiere buscar una receta con detalles expecíficos
+
+**Escenario principal:**
+
+1. El usuario registrado entra en la aplicación con la intención de buscar una receta.
+2. El usuario registrado filtra la receta según los criterios que quiera.
+3. El usuario solicita al sistema que busque las recetas según los criterios filtrados.
+4. El sistema devuelve los resultado por fecha de publicación, con las recetas más recientes primero.
+5. El caso de uso finaliza
+
+**Alternativas y errores:**
+
+**En relación con el paso 2**
+
+1. El sistema no ejecuta la búsqueda hasta que lo corrija si el usuario selecciona el mismo ingrediente para incluirlo y excluirlo.
+2. El sistema no distingue entre mayúsculas y tildes.
+3. El usuario ha de filtrar al menos un criterio, si no indica, el sistema solicita un criterio y conserva la búsqueda sin ejecutar
+
+**En relación con el paso 4**
+
+ 1. El sistema indica que no hay resultados para esa búsqueda, si ninguna receta cumple los criterios. Conserva los criterios para que la persona pueda modificarlos.
+ 2. El sistema ofrece una corrección ortográfica si el texto lo admite
+
+**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
+
+**Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
+
+**Preguntas abiertas:** [Cuando se actualiza el perfil, ¿Quiere que mande un mensaje de "perfil actualizado"?]
+
 ## 7 Continuidad entre iteraciones
 
 E1 establece la primera vista del modelo, con siete actores y quince casos de uso: UC-01 a UC-07, UC-09 a UC-11 y UC-31 a UC-35.
