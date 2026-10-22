@@ -165,19 +165,20 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 ### 6.1 Descripción de un caso
 
-**Identificador y nombre:** [UC-05·Actualizar perfil.]
+**Identificador y nombre:** UC-05·Actualizar perfil.
 
-**Estado de la descripción:** [Indica el nivel de detalle y el alcance desarrollado.] 
+**Estado de la descripción:** Indica el nivel de detalle y el alcance desarrollado. 
 
-**Objetivo:** [Permitir que un usuario registrado pueda actualizar y guarde los datos de su propio perfil, manteniendo la integridad de la información y recibiendo confirmación del resultado de la operación.]
+**Objetivo:** Permitir que un usuario registrado pueda actualizar y guarde los datos de su propio perfil, manteniendo la integridad de la información y recibiendo confirmación del resultado de la operación.
 
-**Participantes:** [Actor principal: Usuario registrado]
+**Participantes:** Actor principal: Usuario registrado
 
-**Precondiciones:** [La persona ya tiene una cuenta activa y una sesión iniciada.]
+**Precondiciones:** La persona ya tiene una cuenta activa y una sesión iniciada.
 
-**Inicio:** [El usuario registrado quiere actualizar el perfil y guardar los cambios]
+**Inicio:** El usuario registrado quiere actualizar el perfil y guardar los cambios
 
-**Escenario principal:** [1. El usuario registrado entra en la aplicación con el fin de actualizar su perfil.
+**Escenario principal:**
+1. El usuario registrado entra en la aplicación con el fin de actualizar su perfil.
 2. El usuario registrado entra en su propio perfil.
 3. El usuario registrado solicita actualizar el perfil.
 4. El sistema muestra los datos actuales y cuales son los datos editables.
@@ -185,9 +186,10 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 5. El usuario registrado solicita el guardado de los datos.
 6. El sistema trata de guardar los cambios, si no es capaz o hay campos obligatorios no cubiertos el sistema deja los valores previos, si es capaz y los datos son válidos el sistema guarda conjuntamente los cambios.
 7. El sistema confirma que el perfil se ha actualizado.
-8. El caso de uso finaliza]
+8. El caso de uso finaliza
 
-**Alternativas y errores:** [En relación con el paso 6 del escenario:
+**Alternativas y errores:**
+En relación con el paso 6 del escenario:
 **El sistema no es capaz de guardas los cambios realizados**
 1. El sistema identifica los campos afectados y explica la correción correcta.
 2. El sistema conserva los valores introducidos para que la persona pueda reintentar el guardado.
@@ -195,7 +197,7 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 **El usuario cancela antes de guardar**
 1. El usuario no confirma el guardado
 2. El sistema descarta los cambios de esa edición
-3. El perfil conserva los valores anteriores.]
+3. El perfil conserva los valores anteriores.
 
 **Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
 
