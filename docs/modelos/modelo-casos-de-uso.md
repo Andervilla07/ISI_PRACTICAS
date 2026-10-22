@@ -229,8 +229,11 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 1. El usuario registrado entra en la aplicación con la intención de buscar una receta.
 2. El usuario registrado filtra la receta según los criterios que quiera.
 3. El usuario solicita al sistema que busque las recetas según los criterios filtrados.
-4. El sistema devuelve los resultado por fecha de publicación, con las recetas más recientes primero.
-5. El caso de uso finaliza
+4. El sistema comprueba los criterios filtrados.
+5. El sistema obtiene las recetas validas.
+6. El sistema devuelve los resultado por fecha de publicación, con las recetas más recientes primero.
+7. El usuario registrado selecciona una receta.
+8. El caso de uso finaliza.
 
 **Alternativas y errores:**
 
@@ -240,7 +243,7 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 2. El sistema no distingue entre mayúsculas y tildes.
 3. El usuario ha de filtrar al menos un criterio, si no indica, el sistema solicita un criterio y conserva la búsqueda sin ejecutar
 
-**En relación con el paso 4**
+**En relación con el paso 6**
 
  1. El sistema indica que no hay resultados para esa búsqueda, si ninguna receta cumple los criterios. Conserva los criterios para que la persona pueda modificarlos.
  2. El sistema ofrece una corrección ortográfica si el texto lo admite
