@@ -190,11 +190,15 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 **Alternativas y errores:**
 En relación con el paso 6 del escenario:
+
 **El sistema no es capaz de guardas los cambios realizados**
+
 1. El sistema identifica los campos afectados y explica la correción correcta.
 2. El sistema conserva los valores introducidos para que la persona pueda reintentar el guardado.
 3. Los datos guardados permanecen sin cambios.
+
 **El usuario cancela antes de guardar**
+
 1. El usuario no confirma el guardado
 2. El sistema descarta los cambios de esa edición
 3. El perfil conserva los valores anteriores.
