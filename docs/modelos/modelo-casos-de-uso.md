@@ -254,6 +254,9 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 **Preguntas abiertas:** 
 
+<img width="1920" height="1080" alt="actividad-buscar-recetas-uc21 png" src="https://github.com/user-attachments/assets/a578a741-e6ee-4ae2-bccc-d989e1ae1b1c" />
+
+
 ## 7 Continuidad entre iteraciones
 
 E1 establece la primera vista del modelo, con siete actores y quince casos de uso: UC-01 a UC-07, UC-09 a UC-11 y UC-31 a UC-35.
